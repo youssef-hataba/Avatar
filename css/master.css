@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+    font-family: "Ubuntu", sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+body {
+    background-image: linear-gradient(to right, #01022d, #000);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image:
+        linear-gradient(to right, #01022de5 30%, #0000008d),
+        url(/images/download.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    background-size: cover;
+    width: 90%;
+    height: 650px;
+    background-position: center;
+}
+
+body:hover {
+    background-image:linear-gradient(to right, #01022de5 30%, #00000055),
+    url(/images/download.webp);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+
+}
+
+.logo {
+    font-style: italic;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: rgb(0, 93, 206);
+}
+
+ul {
+    width: 60%;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul a {
+    border-bottom: 2px solid transparent;
+    font-size: 25px;
+    color: rgb(0, 93, 206);
+}
+
+ul a:hover {
+    border-bottom: 2px solid rgb(241, 241, 241);
+    color: rgb(0, 93, 206);
+}
+
+.content {
+    width: 50%;
+    margin-top: 50px;
+    padding: 30px;
+    color: white;
+}
+
+.content h2 {
+    font-size: 100px;
+    text-transform: uppercase;
+    font-style: italic;
+    color: rgb(0, 93, 206);
+}
+
+.content p {
+    letter-spacing: 2px;
+    width: 550px;
+    padding: 20px 0;
+}
+
+.content button {
+    font-size: 15px;
+    font-weight: bold;
+    padding: 6px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: rgb(0, 93, 206);
+    background-color: transparent;
+    border: transparent;
+}
+
+.content button:hover {
+
+    background-color: transparent;
+    border-color: white;
+    color: rgb(142, 12, 206);
+    border-bottom: 2px solid white;
+}
